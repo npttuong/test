@@ -1,0 +1,84 @@
+* {
+    font-size: 16px;
+  }
+  
+  .login {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 100px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .login .login-form {
+    max-width: 450px;
+    margin: 20px auto;
+  }
+  
+  .login .login-form h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .login .login-form .input-box input {
+    padding: 12px 16px;
+    width: 100%;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    outline: none;
+  }
+  
+  .login .login-form .input-box {
+    padding-bottom: 15px;
+    display: block;
+  }
+  
+  .login .login-form .input-box label {
+    font-size: 18px;
+    padding-bottom: 15px;
+    display: block;
+  }
+  
+  .login .login-form .input-box input:hover {
+    background-color: rgb(240, 241, 241);
+  }
+  
+  .btn-first {
+    text-decoration: none;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 12px 16px;
+    width: 100%;
+    cursor: pointer;
+    transition: all 0.2s;
+    border-radius: 8px;
+  }
+  .login .login-form .btn-first:hover {
+    background: var(--primary-color);
+  }
+  
+  .login .login-form .btn-second {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .login .login-form .btn-second a:hover {
+    color: var(--primary-color);
+  }
+  
+  .login .login-form .btn-second p a {
+    color: #000;
+    transition: all 0.2s;
+  }
+  
+  .errors {
+    color: red;
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .invalid {
+    border: 1px solid red !important;
+  }
+  
